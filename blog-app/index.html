@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - My Blog</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="home-page">
+    <nav class="navbar">
+        <a href="index.html">Home</a>
+        <a href="blogs.html">All Blogs</a>
+        <a href="admin.html">Admin</a>
+    </nav>
+
+    <div class="container">
+        <h2>Home Page</h2>
+        <input type="text" id="search-input" placeholder="Search by title...">
+        <select id="category-filter">
+            <option value="">All Categories</option>
+            <option value="Technology">Tech</option>
+            <option value="Travel">Travel</option>
+            <option value="Food">Food</option>
+            <option value="Lifestyle">Life</option>
+            <option value="Health">Health</option>
+        </select>
+        <select id="sort-order">
+            <option value="newest">Newest</option>
+            <option value="oldest">Oldest</option>
+        </select>
+        <div id="home-blogs-container">
+        </div>
+        <p id="no-results-home" class="hidden">No blogs found.</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
