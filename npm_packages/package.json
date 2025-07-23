@@ -1,0 +1,22 @@
+{
+  "name": "math_utilities_custom",
+  "version": "1.0.1",
+  "description": "A basic maths utilities library",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kapoor-Karan/web-dev-class.git"
+  },
+  "author": "karan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kapoor-Karan/web-dev-class/issues"
+  },
+  "homepage": "https://github.com/Kapoor-Karan/web-dev-class#readme",
+  "dependencies": {
+    "@changesets/cli": "^2.29.5"
+  }
+}
